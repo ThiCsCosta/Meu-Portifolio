@@ -145,7 +145,7 @@ section{
     padding: 1.2rem 2.8rem;
     background: var(--font-main);
     box-shadow: 0 .2rem .5rem var(--font-main);
-    border-radius: .3rem;
+    border-radius: 1rem;
     font-size: 1.6rem;
     color: var(--fonts);
     letter-spacing: .1rem;
@@ -238,3 +238,57 @@ span{
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
+
+/*SECTION ABOUT FIM*/
+
+/*SECTION SERVICES*/
+.services{
+    min-height: auto;
+    padding-bottom: 10rem;
+}
+.services h2 {
+    margin-bottom: 10rem;
+}
+.services .services-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.services-container .services-box{
+    flex: 1 1 30rem;
+    background: var(--backgroun-white);
+    padding: 3rem 2rem 4rem;
+    border-radius: 1rem;
+    box-shadow: 0 .1rem .5rem var(--font-main);
+    text-align: center;
+    border-top: .6rem solid var(--font-main);
+    border-bottom: .6rem solid var(--font-main);
+    transition: .3s ease;
+}
+.services-container .services-box:hover{
+    box-shadow: 0 .3rem 1rem var(--font-main);
+    transform: scale(1.03);
+}
+
+.services-box i {
+    font-size: 7rem;
+    color: var(--font-main);
+}
+
+.services-box h3 {
+    font-size: 2.5rem;
+    transition: .3s ease;
+}
+.services-box:hover h3{
+    color: var(--font-main);
+}
+
+.services-box p {
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+}
+
+/*SECTION SERVICES FIM*/
